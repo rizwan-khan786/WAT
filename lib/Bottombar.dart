@@ -1,8 +1,9 @@
 import 'package:flutter/material.dart';
 import 'package:google_fonts/google_fonts.dart';
+import 'package:pet/View/Booking/BookingPage.dart';
+import 'package:pet/View/MyRescue/MyRescues.dart';
 import 'package:pet/View/Profile/Profile.dart';
-import 'package:pet/screens/Booking/BookingPage.dart';
-import 'package:pet/screens/MyRescue/MyRescues.dart';
+
 
 import 'View/Home/HomePage.dart';
 
@@ -18,8 +19,8 @@ class _BottombarState extends State<Bottombar> {
 
   final List<Widget> _screens = [
     HomePage(),
-    Bookingpage(),
-    Myrescues(),
+    BookingPage(),
+    MyRescues(),
     Profile(),
   ];
 

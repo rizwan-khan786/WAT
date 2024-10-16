@@ -5,10 +5,10 @@ import 'package:google_fonts/google_fonts.dart';
 import 'package:smooth_page_indicator/smooth_page_indicator.dart';
 import 'package:youtube_player_flutter/youtube_player_flutter.dart';
 
-import '../../screens/Home/Services/Adoption.dart';
-import '../../screens/Home/Services/RescueList.dart';
 import 'DetailPage/PetDetailScreen.dart';
 import 'Package.dart';
+import 'Services/Adoption.dart';
+import 'Services/RescueList.dart';
 
 class HomePage extends StatefulWidget {
   const HomePage({super.key});
